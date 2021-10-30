@@ -1,0 +1,36 @@
+:root {
+  --primary: #0d0d2b;
+  --secundary: #3671e9;
+  --text-dark: #eceff5;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62, 5%;
+  font-family: "Rubik", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  padding: 10px;
+  background-color: var(--primary);
+}
+
+nav img {
+  height: 55px;
+  width: 55px;
+  margin-inline: 20px;
+}
+
+nav h1 {
+  font-size: 1, 2rem;
+  font-weight: 400;
+  color: var(--text-dark);
+}
