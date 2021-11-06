@@ -1,6 +1,6 @@
 :root {
   --primary: #0d0d2b;
-  --secundary: #3671e9;
+  --secondary: #3671e9;
   --text-dark: #eceff5;
 }
 
@@ -25,7 +25,7 @@ nav {
 
 nav img {
   height: 55px;
-  width: 55px;
+  width: 50px;
   margin-inline: 20px;
 }
 

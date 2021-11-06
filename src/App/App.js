@@ -1,14 +1,12 @@
 import "./App.css";
-import logo from "./assets/Icon.svg";
+import Layout from "./components/Layout";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <>
-      <nav>
-        <img className="Icon" src={logo} alt="Logo David Gonzalez" />
-        <h1>Front-end Developer</h1>
-      </nav>
-    </>
+    <Layout>
+      <Header />
+    </Layout>
   );
 }
 
