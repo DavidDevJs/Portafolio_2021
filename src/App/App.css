@@ -15,22 +15,7 @@ html {
   font-family: "Rubik", sans-serif;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  height: 4rem;
-  padding: 10px;
-  background-color: var(--primary);
-}
-
-nav img {
-  height: 55px;
-  width: 50px;
-  margin-inline: 20px;
-}
-
-nav h1 {
-  font-size: 1, 2rem;
-  font-weight: 400;
-  color: var(--text-dark);
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
 }

@@ -1,0 +1,9 @@
+section {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  height: 600px;
+  background-color: var(--primary);
+  color: var(--text-dark);
+}
