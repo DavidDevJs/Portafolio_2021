@@ -1,0 +1,22 @@
+.about {
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  min-width: 100vw;
+  height: 100vh;
+  background-color: rgb(234, 239, 241);
+}
+
+.about__title {
+  color: var(--primary);
+  margin-block-end: 20px;
+}
+
+.about__p {
+  color: var(--primary);
+  text-align: justify;
+}

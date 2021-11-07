@@ -1,9 +1,13 @@
-section {
+.header {
+  scroll-snap-align: start;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
-  width: 100vw;
-  height: 600px;
+  min-width: 100vw;
+  height: 100vh;
+  padding: 10px;
   background-color: var(--primary);
   color: var(--text-dark);
 }
