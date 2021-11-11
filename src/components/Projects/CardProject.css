@@ -1,0 +1,19 @@
+.projects__container {
+  scroll-snap-align: start;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: sandybrown;
+  overflow: hidden;
+}
+
+.projects__item--img {
+  object-fit: fit;
+  min-width: 100%;
+  max-height: 100%;
+}
+
+.projects__item--description {
+  background-color: rgba(192, 192, 192, 0.301);
+  position: relative;
+  bottom: 85px;
+}

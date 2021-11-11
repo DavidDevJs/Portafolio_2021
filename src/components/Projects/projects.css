@@ -1,0 +1,9 @@
+.projectsList {
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  min-width: 100vw;
+  margin-block-start: 48px;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
