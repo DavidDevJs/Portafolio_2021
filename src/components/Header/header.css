@@ -11,3 +11,7 @@
   background-color: var(--primary);
   color: var(--text-dark);
 }
+
+.iam {
+  font-size: calc(1.5rem + 3vw);
+}

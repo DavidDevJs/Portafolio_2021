@@ -1,9 +1,43 @@
-.projectsList {
+.projects {
   scroll-snap-align: start;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  min-width: 100vw;
+  height: 100vh;
+  margin-block-start: 45px;
+  padding-block-start: 10px;
+  background-color: var(--text-dark);
+}
+
+.projects__desc {
+  width: 50vw;
+  height: 100vh;
+  padding-inline-start: 30px;
+}
+
+.projects__list {
+  justify-self: center;
   display: flex;
   flex-direction: column;
-  min-width: 100vw;
-  margin-block-start: 48px;
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
+  width: 90%;
+  padding-block-end: 45px;
+}
+
+.projects__list--ul {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+  .projects {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+  }
+
+  .projects__desc {
+    display: none;
+  }
 }

@@ -1,15 +1,18 @@
 .projects__container {
-  scroll-snap-align: start;
-  min-height: 100vh;
-  min-width: 100vw;
-  background-color: sandybrown;
+  scroll-snap-align: center;
   overflow: hidden;
+  width: 98%;
+  max-width: 450px;
+  height: 568px;
+  border-radius: 14px;
+  align-self: center;
+  justify-self: center;
+  background-color: darkseagreen;
+  margin: 20px;
 }
 
 .projects__item--img {
-  object-fit: fit;
-  min-width: 100%;
-  max-height: 100%;
+  object-fit: contain;
 }
 
 .projects__item--description {

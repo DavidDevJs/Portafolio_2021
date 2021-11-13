@@ -1,15 +1,14 @@
-import { CardProject } from "./CardProject";
+import { ProjectsList } from "./ProjectsList";
+import { ProjectsDesc } from "./ProjectsDesc";
 import "./projects.css";
 
-const ProjectsList = () => {
+const Projects = () => {
   return (
-    <section className="projectsList">
-      <ul>
-        <CardProject />
-        <CardProject />
-      </ul>
+    <section className="projects">
+      <ProjectsDesc />
+      <ProjectsList />
     </section>
   );
 };
 
-export { ProjectsList };
+export { Projects };
