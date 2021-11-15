@@ -1,23 +1,15 @@
 nav {
   display: flex;
   position: fixed;
-  justify-content: center;
-  align-items: center;
   width: 100vw;
   height: 3rem;
   padding: 10px;
-  background-color: var(--primary);
+  background-color: var(--bg-light);
   z-index: 1;
 }
 
-nav img {
-  height: 28px;
-  width: 28px;
-  margin-inline: 8px;
-}
-
-nav h1 {
-  font-size: 1rem;
-  font-weight: 400;
-  color: var(--text-dark);
+.menu {
+  width: 45px;
+  height: 35px;
+  color: var(--txt-light);
 }

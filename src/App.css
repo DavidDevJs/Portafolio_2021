@@ -1,7 +1,8 @@
 :root {
-  --primary: #0d0d2b;
-  --secondary: #3671e9;
-  --text-dark: #eceff5;
+  --bg-dark: #141b1f;
+  --bg-light: #fff7e8;
+  --txt-dark: #e6e9ee;
+  --txt-light: #292929;
 }
 
 * {
@@ -12,10 +13,9 @@
 
 html {
   font-size: 62, 5%;
-}
-
-h1 {
-  font-size: calc(1.5rem + 3vw);
+  font-family: Inter, Nunito Sans, -apple-system, \.SFNSText-Regular,
+    San Francisco, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica,
+    Arial, sans-serif;
 }
 
 h2 {

@@ -2,21 +2,26 @@
   scroll-snap-align: start;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   text-align: center;
   padding: 20px;
+  margin-block-start: 45px;
   min-width: 100vw;
   height: 100vh;
-  background-color: rgb(234, 239, 241);
+  background-color: var(--bg-light);
+}
+
+.about__content {
+  width: 50vw;
 }
 
 .about__title {
-  color: var(--primary);
+  color: var(--txt-light);
   margin-block-end: 20px;
 }
 
 .about__p {
-  color: var(--primary);
+  color: var(--txt-light);
   text-align: justify;
 }
