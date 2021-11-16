@@ -1,6 +1,6 @@
 :root {
   --bg-dark: #141b1f;
-  --bg-light: #fff7e8;
+  --bg-light: #e9e9e9;
   --txt-dark: #e6e9ee;
   --txt-light: #292929;
 }
@@ -28,4 +28,9 @@ h3 {
 
 p {
   font-size: 1.2rem;
+}
+
+ul,
+li {
+  list-style: none;
 }

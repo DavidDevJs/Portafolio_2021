@@ -4,8 +4,6 @@
   grid-template-columns: 50% 50%;
   min-width: 100vw;
   height: 100vh;
-  margin-block-start: 45px;
-  padding-block-start: 10px;
   background-color: var(--text-dark);
 }
 
@@ -30,7 +28,7 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 710px) {
   .projects {
     display: flex;
     justify-content: center;

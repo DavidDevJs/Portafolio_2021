@@ -3,8 +3,16 @@ import "./Nav.css";
 
 const Navbar = () => {
   return (
-    <nav>
-      <CgMenuLeftAlt className="menu" />
+    <nav className="nav">
+      <CgMenuLeftAlt className="nav__icon" />
+
+      <div className="nav__sections">
+        <ul>
+          <li>About</li>
+          <li>Projects</li>
+          <li>Contact</li>
+        </ul>
+      </div>
     </nav>
   );
 };
