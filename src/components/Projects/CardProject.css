@@ -1,22 +1,14 @@
-.projects__container {
+.project__container {
   scroll-snap-align: center;
+  display: flex;
+  justify-content: center;
   overflow: hidden;
-  width: 98%;
-  max-width: 450px;
-  height: 568px;
-  border-radius: 14px;
-  align-self: center;
-  justify-self: center;
-  background-color: darkseagreen;
-  margin: 20px;
+  height: 100vh;
 }
 
-.projects__item--img {
-  object-fit: contain;
-}
-
-.projects__item--description {
-  background-color: rgba(192, 192, 192, 0.301);
-  position: relative;
-  bottom: 85px;
+.project__item--img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
 }

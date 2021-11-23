@@ -34,3 +34,17 @@ ul,
 li {
   list-style: none;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+  background-color: rgb(167, 166, 166);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #0089d8;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #00d8b4;
+}

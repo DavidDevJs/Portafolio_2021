@@ -1,12 +1,11 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
   position: fixed;
   width: 100vw;
-  height: 3rem;
+  height: 70px;
   padding: 10px;
-  margin-block-start: 20px;
   background-color: var(--bg-light);
   z-index: 1;
 }

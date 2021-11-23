@@ -12,22 +12,22 @@ const ProjectsList = () => {
         />
         <CardProject
           imagePro={
-            "https://pixabay.com/get/g8d652bf0bf78fcb275639b40320ffd2c5bc1b353662bbd4e7a2412349691d3bee44b9debf800a8fd8b21052d6246df0c50d399b364f9285561b0474fa00f6f37de7da8895cb5338929e74c04762980d8_640.jpg"
+            "https://pixabay.com/get/gf011f9399dc3cff7326f46571a140f29a1ce76df5f7e287f7e0dd1bad0b40529f6c99926d47891ba0f07091e2150baa104204c3c829f3797db2c3e2eb9f5de0cef68bbf57dd7760ab0cf9a60c35a144a_640.jpg"
           }
         />
         <CardProject
           imagePro={
-            "https://pixabay.com/get/gb0a282d9625717369ee1fb95af678e233385f34c081f1515b34581963239eafb80a9a227fe99a8ca188424931ef76f765acf5c33c287f547825e01bd8357f88c491d4d1d173f33f7d0ee2f5a9ec07ead_640.jpg"
+            "https://pixabay.com/get/g01491a11bc02acfea941390fb6c4d72f2c6bfd38abfe2e0306c35c4955769e0e26ce88891a1983aa505bf4b1e7a50cace7e73e156c2e08267e8603072af8214bea18a2d20fb53c0dff48d4f2ce0d6281_640.jpg"
           }
         />
         <CardProject
           imagePro={
-            "https://pixabay.com/get/gd362a0801ba8d4891edd847a36fe9960243b841fb6a85e83f08a67b3e8b3d01df2cc8e2f1cb0ed289993807b23550d96164dba5cb3a907640934000b4007ee1e83a75d5900fc3d622ca4b538cfb55692_640.jpg"
+            "https://pixabay.com/get/g45803e6509a1a3b99564c95228c83f86b1a17dd85321ff5d19548a2b1d15cbd694b717ad770b400896ea13da49bb1e4d05503027f3d203c678f82de8f738ca5526114e8c7e9a62180ab6554862102c03_640.jpg"
           }
         />
         <CardProject
           imagePro={
-            "https://pixabay.com/get/g9944098302e87730376fcac952f91b655dfda16a05ab8ae33def1a9f4619320a3f118957c3724f46c8e7c5a89428b8e9deb68064104882702582842728f2331f351f4e4ce8a0fe95ad9dd89fbee3e40c_640.jpg"
+            "https://pixabay.com/get/g93ffeceaf27b0e3be828ee4f815f6221e1c678009120fe62e559f2692726558c2a10f62756498443e1c1d79862be20ec8056b382157d09b186fcee2dcc217d3ebaf5dbc238098203fa3d21f7e23eec6a_640.png"
           }
         />
       </ul>
