@@ -2,7 +2,6 @@
   scroll-snap-align: start;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   text-align: center;
   min-width: 100vw;
@@ -24,6 +23,7 @@
 .about__p {
   color: var(--txt-light);
   text-align: start;
+  padding-inline: 15px;
 }
 
 .about__imgProfile {
@@ -45,7 +45,7 @@
 @media screen and (min-width: 710px) {
   .about {
     display: grid;
-    grid-template: 50% 50%;
+    grid-template-columns: repeat(2, 1fr);
   }
   .about__imgProfile {
     grid-column: 1;

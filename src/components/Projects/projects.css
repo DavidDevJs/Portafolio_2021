@@ -20,6 +20,7 @@
 
 .projects__list--ul {
   scroll-snap-align: center;
+  padding-block-start: 0px;
 }
 
 ::-webkit-scrollbar {
@@ -35,9 +36,10 @@
   .projects__desc {
     display: block;
     margin-block-start: 78px;
+    padding-inline: 40px;
   }
 
   .projects__list--ul {
-    margin-block-start: 75px;
+    padding-block-start: 75px;
   }
 }
