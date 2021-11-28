@@ -1,4 +1,6 @@
 import { CgMenuLeftAlt } from "react-icons/cg";
+import { smoothScroll } from "../../utils/smoothScrollUtils";
+
 import "./Nav.css";
 
 const Navbar = () => {
@@ -8,9 +10,15 @@ const Navbar = () => {
 
       <div className="nav__sections">
         <ul>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li>
+            <button onClick={() => smoothScroll("about")}>About</button>
+          </li>
+          <li>
+            <button onClick={() => smoothScroll("projects")}>Projects</button>
+          </li>
+          <li>
+            <button onClick={() => smoothScroll("contact")}>Contact</button>
+          </li>
         </ul>
       </div>
     </nav>

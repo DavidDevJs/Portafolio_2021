@@ -18,24 +18,24 @@ const NavbarMobile = () => {
           </button>
         </li>
         <li className="navbar__item">
-          <button>
+          <button onClick={() => smoothScroll("about")}>
             <IoMdCompass />
             <span>About</span>
           </button>
         </li>
         <li className="navbar__item">
-          <button>
+          <button onClick={() => smoothScroll("comments")}>
             <img src={addButton} alt="add Comment" />
           </button>
         </li>
         <li className="navbar__item">
-          <button>
+          <button onClick={() => smoothScroll("projects")}>
             <FaTools />
             <span>Projects</span>
           </button>
         </li>
         <li className="navbar__item">
-          <button>
+          <button onClick={() => smoothScroll("contact")}>
             <RiMessageFill />
             <span>Contact</span>
           </button>
