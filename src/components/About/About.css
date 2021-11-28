@@ -10,6 +10,7 @@
 }
 
 .about__content {
+  grid-column: 2;
   max-width: 460px;
   overflow-y: scroll;
   scroll-snap-type: y;
@@ -28,12 +29,9 @@
 
 .about__imgProfile {
   grid-column: 1;
-  justify-self: center;
   width: 229px;
   height: 250px;
   margin-block: 60px;
-  margin-inline: 20px;
-  background-color: rgb(250, 93, 41);
 }
 
 .about__imgProfile img {
@@ -45,16 +43,18 @@
 @media screen and (min-width: 710px) {
   .about {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 430px);
+    justify-content: center;
   }
+
   .about__imgProfile {
-    grid-column: 1;
     width: 300px;
     height: 360px;
-  }
-  .about__content {
     justify-self: center;
-    grid-column: 2;
+  }
+
+  .about__content {
     width: 70%;
+    justify-self: center;
   }
 }

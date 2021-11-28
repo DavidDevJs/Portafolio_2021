@@ -5,13 +5,14 @@ import { RiMessageFill } from "react-icons/ri";
 
 import addButton from "../../assets/addButtonTiktok.png";
 import "./NavbarMobile.css";
+import { smoothScroll } from "../../utils/smoothScrollUtils";
 
 const NavbarMobile = () => {
   return (
     <nav className="navbar">
       <ul className="navbar__list">
         <li className="navbar__item">
-          <button>
+          <button onClick={() => smoothScroll("header")}>
             <BsFillHouseDoorFill />
             <span>Home</span>
           </button>
