@@ -11,6 +11,9 @@ const Navbar = () => {
       <div className="nav__sections">
         <ul>
           <li>
+            <button onClick={() => smoothScroll("header")}>Home</button>
+          </li>
+          <li>
             <button onClick={() => smoothScroll("about")}>About</button>
           </li>
           <li>
