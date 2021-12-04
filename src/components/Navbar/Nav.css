@@ -17,6 +17,10 @@
   color: var(--txt);
 }
 
+.nav__icon:hover {
+  cursor: pointer;
+}
+
 .nav__sections ul,
 li {
   display: flex;
@@ -27,12 +31,13 @@ li {
   padding: 5px;
   width: 80px;
   border-radius: 14px;
+  color: var(--txt);
 }
 
 .nav__sections button:hover {
   cursor: pointer;
   padding: 5px;
-  box-shadow: 5px 5px 15px 0px rgba(13, 1, 122, 0.19);
+  box-shadow: var(--shadows);
 }
 
 @media screen and (max-width: 710px) {
