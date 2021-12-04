@@ -20,7 +20,15 @@
 .nav__sections ul,
 li {
   display: flex;
-  margin-inline: 20px;
+  margin-inline: 60px;
+}
+
+.nav__sections button:hover {
+  width: 80px;
+  cursor: pointer;
+  border-radius: 14px;
+  padding: 5px;
+  box-shadow: 5px 5px 15px 0px rgba(13, 1, 122, 0.19);
 }
 
 @media screen and (max-width: 710px) {

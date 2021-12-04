@@ -11,21 +11,21 @@ const Contact = () => {
         <div class="contact-wrapper animated bounceInUp">
           <div class="contact-form">
             <form action="">
-              <p>
+              <div className="contact-form__item">
                 <label>FullName</label>
                 <input type="text" name="fullname" />
-              </p>
-              <p>
+              </div>
+              <div className="contact-form__item">
                 <label>Email Adress</label>
                 <input type="email" name="email" />
-              </p>
-              <p class="block">
+              </div>
+              <div className="contact-form__item message">
                 <label>Message</label>
                 <textarea name="message" rows="3"></textarea>
-              </p>
-              <p class="block">
+              </div>
+              <div className="contact-form__item send">
                 <button>Send</button>
-              </p>
+              </div>
             </form>
           </div>
         </div>
