@@ -7,8 +7,8 @@
   min-width: 100vw;
   height: 100vh;
   padding: 10px;
-  background-color: var(--bg-light);
-  color: var(--txt-light);
+  background-color: var(--bg);
+  color: var(--txt);
 }
 
 .iam span {

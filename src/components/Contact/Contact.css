@@ -3,7 +3,7 @@
   min-width: 100vw;
   height: 100vh;
   padding: 20px;
-  background-color: var(--bg-light);
+  background-color: var(--bg);
 }
 
 .container {
@@ -22,7 +22,7 @@ ul {
 }
 
 .logo span {
-  color: var(--bg-dark);
+  color: var(--bg);
 }
 
 .contact-wrapper {
@@ -32,7 +32,7 @@ ul {
 }
 
 .contact-form {
-  background: var(--bg-light);
+  background: var(--bg);
   max-width: 600px;
 }
 
@@ -66,8 +66,8 @@ ul {
   border: none;
   background: none;
   outline: 0;
-  color: var(--bg-dark);
-  border-bottom: 1px solid var(--bg-dark);
+  color: var(--bg);
+  border-bottom: 1px solid var(--bg);
 }
 
 .contact-form .send {
@@ -75,16 +75,16 @@ ul {
 }
 
 .contact-form form button {
-  background: var(--bg-dark);
+  background: var(--bg);
   text-transform: uppercase;
   padding: 1em;
-  color: var(--bg-light);
+  color: var(--bg);
 }
 
 .contact-form form button:hover,
 .contact-form form button:focus {
   background: #010c18d8;
-  color: var(--bg-light);
+  color: var(--bg);
   transition: background-color 1s ease-out;
   outline: 0;
 }

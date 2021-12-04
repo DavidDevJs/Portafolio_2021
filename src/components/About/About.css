@@ -6,7 +6,7 @@
   text-align: center;
   min-width: 100vw;
   height: 100vh;
-  background-color: var(--bg-light);
+  background-color: var(--bg);
 }
 
 .about__content {
@@ -17,12 +17,12 @@
 }
 
 .about__title {
-  color: var(--txt-light);
+  color: var(--txt);
   margin-block-end: 20px;
 }
 
 .about__p {
-  color: var(--txt-light);
+  color: var(--txt);
   text-align: start;
   padding-inline: 15px;
 }
