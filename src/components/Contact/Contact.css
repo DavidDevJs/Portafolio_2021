@@ -1,39 +1,31 @@
 .contact {
   scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
   min-width: 100vw;
   height: 100vh;
   padding: 20px;
-  background-color: var(--bg);
 }
 
-.container {
-  max-width: 1000px;
-  padding: 1.5em;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-.logo {
+.contact__title {
   text-align: center;
-  font-size: 2em;
-}
-
-.logo span {
-  color: var(--bg);
+  font-size: calc(1.5rem + 1vw);
+  margin-block-start: 2em;
+  color: var(--txt);
 }
 
 .contact-wrapper {
   display: flex;
   justify-content: center;
+  height: 80vh;
+  margin-block-start: 30px;
   padding: 1em;
 }
 
 .contact-form {
   background: var(--bg);
   max-width: 600px;
+  color: var(--txt);
 }
 
 .contact-form form {
@@ -66,8 +58,8 @@ ul {
   border: none;
   background: none;
   outline: 0;
-  color: var(--bg);
-  border-bottom: 1px solid var(--bg);
+  color: var(--txt);
+  border-bottom: 1px solid var(--txt);
 }
 
 .contact-form .send {
@@ -75,7 +67,7 @@ ul {
 }
 
 .contact-form form button {
-  background: var(--bg);
+  background: var(--txt);
   text-transform: uppercase;
   padding: 1em;
   color: var(--bg);
@@ -95,7 +87,7 @@ ul {
     margin-block-start: 70px;
   }
 
-  .contact-wrapper > * {
+  .contact-wrapper {
     padding: 2em;
   }
 }

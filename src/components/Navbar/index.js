@@ -1,4 +1,3 @@
-import { CgMenuLeftAlt } from "react-icons/cg";
 import { smoothScroll } from "../../utils/smoothScrollUtils";
 
 import "./Nav.css";
@@ -6,8 +5,6 @@ import "./Nav.css";
 const Navbar = () => {
   return (
     <nav className="nav">
-      <CgMenuLeftAlt className="nav__icon" />
-
       <div className="nav__sections">
         <ul>
           <li>

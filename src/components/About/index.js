@@ -10,12 +10,27 @@ const About = () => {
       <div className="about__content">
         <h2 className="about__title">About Me</h2>
         <p className="about__p">
-          Hola, soy David González desarrollador front-end, me encanta crear
-          soluciones de software en la web para mejorar la calidad de vida en la
-          sociedad, a través de código mantenible, escalable y optimizado con
-          las mejores prácticas, pensando siempre en la Experiencia de Usuario.{" "}
-          <br /> Trabajo con tecnologias Javascript como React JS, abierto para
-          aprender nuevas tecnologias mas alla del front-end.
+          Hola, soy David González{" "}
+          <strong className="item-strong">desarrollador front-end</strong>, me
+          encanta crear soluciones de software en la web para mejorar la calidad
+          de vida en la sociedad, a través de código mantenible, escalable y
+          optimizado con las mejores prácticas, pensando siempre en la
+          "Experiencia de Usuario".
+        </p>
+        <h4>Trabajo con tecnologias frontend:</h4>
+        <ul className="about__list-skills">
+          <strong>
+            <li>Javascript</li>
+            <li>HTML</li>
+            <li>CSS 3</li>
+            <li>React JS</li>
+            <li>Webpack</li>
+            <li>Tailwind CSS</li>
+            <li>Styled Components</li>
+          </strong>
+        </ul>
+        <p className="about__p">
+          Siempre dispuesto para nunca parar de aprender.
         </p>
       </div>
     </section>

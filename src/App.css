@@ -2,7 +2,9 @@
   :root {
     --bg: #141b1f;
     --txt: #e6e9ee;
+    --action: tomato;
     --shadows: 1px 1px 10px 6px rgba(37, 42, 56, 0.75);
+    --clippy: polygon(0 0, 0 0, 0 100%, 0 99%);
   }
 }
 
@@ -10,7 +12,9 @@
   :root {
     --bg: #e9e9e9;
     --txt: #292929;
-    --shadows: 1px 1px 10px 3px rgba(92, 99, 104, 0.89);
+    --action: tomato;
+    --shadows: 1px 1px 10px 3px rgba(202, 208, 214, 0.89);
+    --clippy: polygon(0 0, 0 0, 0 100%, 0 99%);
   }
 }
 
@@ -25,6 +29,10 @@ html {
   font-family: Inter, Nunito Sans, -apple-system, \.SFNSText-Regular,
     San Francisco, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Helvetica,
     Arial, sans-serif;
+}
+
+body {
+  background-color: var(--bg);
 }
 
 h2 {

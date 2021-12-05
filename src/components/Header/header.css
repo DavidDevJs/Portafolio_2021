@@ -4,18 +4,44 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: auto;
   min-width: 100vw;
   height: 100vh;
   padding: 10px;
-  background-color: var(--bg);
   color: var(--txt);
 }
 
-.iam span {
+.header__title--name span {
   font-weight: 900;
 }
 
-.iam h1 {
-  font-weight: 300;
+.header__title--skill h1 {
+  font-weight: 600;
   font-size: calc(1rem + 0.1vw);
+}
+
+/*Transition title*/
+.item {
+  position: relative;
+  margin-block: 10px;
+  padding: 5px;
+}
+
+.item::before {
+  content: "";
+  display: block;
+  width: 120%;
+  height: 100%;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--action);
+  z-index: -1;
+  clip-path: var(--clippy);
+  transition: clip-path 2s;
+}
+
+.item:hover::before {
+  clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
 }

@@ -27,8 +27,13 @@
   flex-direction: column;
   align-items: center;
   background: none;
-  border: none;
-  color: white;
+  padding: 5px;
+  color: var(--txt);
+}
+
+.navbar__item button:focus {
+  box-shadow: var(--shadows);
+  border-radius: 14px;
 }
 
 .navbar__item button svg {

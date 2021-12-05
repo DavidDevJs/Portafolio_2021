@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import { BsFillHouseDoorFill } from "react-icons/bs";
 import { IoMdCompass } from "react-icons/io";
 import { FaTools } from "react-icons/fa";
@@ -8,6 +10,7 @@ import "./NavbarMobile.css";
 import { smoothScroll } from "../../utils/smoothScrollUtils";
 
 const NavbarMobile = () => {
+  const [settings, setSettings] = useState(false);
   return (
     <nav className="navbar">
       <ul className="navbar__list">
@@ -23,9 +26,16 @@ const NavbarMobile = () => {
             <span>About</span>
           </button>
         </li>
-        <li className="navbar__item">
-          <button onClick={() => smoothScroll("comments")}>
-            <img src={addButton} alt="add Comment" />
+        <li className="navbar__item nav__control">
+          <button
+            onClick={() => setSettings((active) => !active)}
+            className={
+              settings
+                ? "nav__settings--wrapper"
+                : "nav__settings--wrapper-disabled"
+            }
+          >
+            <img src={addButton} alt="settings" />
           </button>
         </li>
         <li className="navbar__item">

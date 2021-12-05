@@ -1,6 +1,6 @@
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   align-items: end;
   position: fixed;
   width: 100vw;
@@ -8,17 +8,6 @@
   padding: 10px;
   background-color: var(--bg);
   z-index: 1;
-}
-
-.nav__icon {
-  width: 45px;
-  height: 35px;
-  margin-inline-start: 30px;
-  color: var(--txt);
-}
-
-.nav__icon:hover {
-  cursor: pointer;
 }
 
 .nav__sections ul,

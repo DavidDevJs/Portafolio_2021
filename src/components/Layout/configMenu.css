@@ -1,0 +1,32 @@
+.config__wrapper--disabled {
+  display: none;
+}
+
+.config__wrapper {
+  position: absolute;
+  top: -46px;
+  left: -58px;
+  width: 150px;
+  height: 150px;
+  background-color: var(--txt);
+  margin-inline-start: 30px;
+  border-radius: 50%;
+  z-index: 2;
+  transform: scale(1%, 1%);
+  transition: transform, background-color 2s;
+}
+
+.config__wrapper .config__icon:hover {
+  transform: scale(100%, 100%);
+}
+
+.config__icon {
+  position: absolute;
+  top: 20px;
+  width: 45px;
+  height: 35px;
+  margin-inline-start: 30px;
+  color: var(--txt);
+  cursor: pointer;
+  z-index: 3;
+}
