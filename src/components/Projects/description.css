@@ -1,0 +1,39 @@
+.description__wrapper {
+  position: relative;
+  bottom: 377px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 70px);
+  gap: 5px;
+  max-width: 467.7px;
+  padding: 20px;
+}
+
+.description__text {
+  grid-column: 1 / 4;
+  grid-row: 2 /3;
+}
+
+.description__technologies--wrapper {
+  grid-column: 1 / 4;
+  grid-row: 4 / 5;
+  align-self: center;
+}
+
+.description__technologies--list {
+  display: flex;
+}
+
+.description__feedback {
+  grid-column: 4;
+  grid-row: 1 / 4;
+  justify-self: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 710px) {
+  .description__wrapper {
+    position: initial;
+  }
+}
