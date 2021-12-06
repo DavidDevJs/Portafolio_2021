@@ -3,9 +3,9 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <section className="contact" id="contact">
-      <h1 class="contact__title">Contact</h1>
-      <div class="contact-wrapper">
-        <div class="contact-form">
+      <h1 className="contact__title">Contact</h1>
+      <div className="contact-wrapper">
+        <div className="contact-form">
           <form action="">
             <div className="contact-form__item">
               <label>FullName</label>

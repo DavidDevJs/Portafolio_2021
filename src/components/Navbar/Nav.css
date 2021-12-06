@@ -29,6 +29,10 @@ li {
   box-shadow: var(--shadows);
 }
 
+.nav__sections button:focus {
+  color: var(--action);
+}
+
 @media screen and (max-width: 710px) {
   .nav {
     display: none;
@@ -38,4 +42,5 @@ li {
 button {
   border: none;
   background: transparent;
+  cursor: pointer;
 }

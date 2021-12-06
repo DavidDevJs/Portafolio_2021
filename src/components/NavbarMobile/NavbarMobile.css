@@ -27,7 +27,7 @@
   flex-direction: column;
   align-items: center;
   background: none;
-  padding: 5px;
+  padding: 1vw;
   color: var(--txt);
 }
 

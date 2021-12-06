@@ -75,7 +75,7 @@
 
 .contact-form form button:hover,
 .contact-form form button:focus {
-  background: #010c18d8;
+  background: tomato;
   color: var(--bg);
   transition: background-color 1s ease-out;
   outline: 0;

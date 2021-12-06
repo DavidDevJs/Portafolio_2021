@@ -1,4 +1,5 @@
-import React from "react";
+import { ButtonProject } from "./Buttons/Button";
+
 import "./description.css";
 
 const Description = () => {
@@ -19,8 +20,10 @@ const Description = () => {
         </ul>
       </div>
       <div className="description__feedback">
-        <button>like</button>
-        <button>Share</button>
+        <ButtonProject type="like" value="1" />
+        <ButtonProject type="share" title="Share" />
+        <ButtonProject type="github" title="Code" />
+        <ButtonProject type="demo" title="Demo" />
       </div>
     </div>
   );

@@ -17,7 +17,7 @@
 
 .projects__list--ul {
   scroll-snap-align: center;
-  padding-block-start: 0px;
+  padding-block: 30px;
 }
 
 @media screen and (min-width: 710px) {
