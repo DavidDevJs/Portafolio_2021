@@ -3,13 +3,13 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 70px);
   gap: 5px;
-  max-width: 467.7px;
+  max-width: 567.7px;
   padding: 20px;
   margin-block-end: 36px;
   background: linear-gradient(
     2deg,
-    rgba(66, 76, 105, 0.65) 0%,
-    rgba(139, 142, 163, 0.29) 50%,
+    rgba(24, 28, 39, 0.315) 0%,
+    rgba(48, 50, 63, 0.651) 50%,
     rgba(208, 227, 255, 0) 100%
   );
 }
@@ -18,6 +18,7 @@
   grid-column: 1 / 4;
   grid-row: 3 / 4;
   margin-block-start: 20px;
+  color: var(--txt);
 }
 
 .description__text--title {
@@ -35,6 +36,7 @@
 
 .description__technologies--list {
   display: flex;
+  color: var(--txt);
 }
 
 .description__feedback {

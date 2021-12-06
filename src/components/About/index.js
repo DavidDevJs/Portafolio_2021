@@ -1,3 +1,4 @@
+import React from "react";
 import "./About.css";
 import imgProfile from "../../assets/imgProfile.jpg";
 

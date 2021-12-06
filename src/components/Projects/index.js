@@ -1,3 +1,4 @@
+import React from "react";
 import { ProjectsList } from "./ProjectsList";
 import "./projects.css";
 

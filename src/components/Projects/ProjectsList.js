@@ -1,5 +1,7 @@
+import React from "react";
 import { CardProject } from "./CardProject";
 import { Description } from "./Description";
+
 import "./projects.css";
 
 const ProjectsList = () => {

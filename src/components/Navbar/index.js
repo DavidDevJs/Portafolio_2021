@@ -1,3 +1,4 @@
+import React from "react";
 import { smoothScroll } from "../../utils/smoothScrollUtils";
 
 import "./Nav.css";
