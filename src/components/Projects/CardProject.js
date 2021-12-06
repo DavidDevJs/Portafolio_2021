@@ -2,8 +2,8 @@ import React from "react";
 import "./cardProject.css";
 
 const CardProject = ({ children }) => {
-  const urlTest =
-    "https://thumbs.gfycat.com/SevereIndelibleBrownbear-mobile.mp4";
+  const urlTest = "https://giphy.com/embed/kFoM70uJvrSx1dBugx";
+
   const styledImageBg = {
     backgroundImage: `url(${urlTest})`,
     backgroundRepeat: "no-repeat",
