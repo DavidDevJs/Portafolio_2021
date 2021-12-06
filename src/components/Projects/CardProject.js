@@ -1,10 +1,10 @@
 import React from "react";
 import "./cardProject.css";
-import imgProject from "../../assets/loginTwitter.gif";
 
 const CardProject = ({ children }) => {
+  const urlTest = "https://gfycat.com/severeindeliblebrownbear";
   const styledImageBg = {
-    backgroundImage: `url(${imgProject})`,
+    backgroundImage: `url(${urlTest})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "contain",
     backgroundPositionY: "center",
