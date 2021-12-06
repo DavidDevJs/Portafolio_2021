@@ -7,16 +7,22 @@
 }
 
 .project__item {
+  display: flex;
+  align-items: flex-end;
   width: 100vw;
   max-width: 425px;
-}
-
-.project__item--img {
-  object-fit: cover;
-  object-position: center;
+  background-color: tomato;
 }
 
 @media screen and (min-width: 710px) {
+  .project__container {
+    height: 640px;
+  }
+
+  .project__item {
+    margin-block: 5px;
+  }
+
   .project__item--img {
     width: 100%;
   }

@@ -1,17 +1,23 @@
 .description__wrapper {
-  position: relative;
-  bottom: 377px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 70px);
   gap: 5px;
   max-width: 467.7px;
   padding: 20px;
+  margin-block-end: 36px;
 }
 
 .description__text {
   grid-column: 1 / 4;
   grid-row: 2 /3;
+}
+
+.description__text--title {
+  font-size: 1.4rem;
+}
+.description__text-p {
+  font-size: 1rem;
 }
 
 .description__technologies--wrapper {
@@ -30,4 +36,10 @@
   justify-self: flex-end;
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (min-width: 710px) {
+  .description__wrapper {
+    margin-block-end: 10px;
+  }
 }

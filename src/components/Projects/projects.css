@@ -2,8 +2,10 @@
   scroll-snap-align: center;
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   min-width: 100vw;
-  height: 100%;
+  height: 100vh;
+  padding-block-end: 10px;
 }
 
 .projects__list {
@@ -19,7 +21,8 @@
 }
 
 @media screen and (min-width: 710px) {
-  .projects {
+  .projects__list {
     margin-block-start: 70px;
+    height: 90vh;
   }
 }
