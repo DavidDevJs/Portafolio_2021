@@ -1,11 +1,10 @@
 import React from "react";
 import "./cardProject.css";
+import { Description } from "./Description";
 
-const CardProject = ({ children }) => {
-  const urlTest = "https://giphy.com/embed/kFoM70uJvrSx1dBugx";
-
+const CardProject = () => {
   const styledImageBg = {
-    backgroundImage: `url(${urlTest})`,
+    backgroundImage: `url()`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "contain",
     backgroundPositionY: "center",
@@ -15,7 +14,7 @@ const CardProject = ({ children }) => {
     <div className="project__container">
       <li>
         <div className="project__item" style={styledImageBg}>
-          {children}
+          <Description />
         </div>
       </li>
     </div>
