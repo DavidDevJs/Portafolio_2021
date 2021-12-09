@@ -16,6 +16,7 @@ module.exports = {
   resolve: {
     extensions: [".js", ".jsx"],
   },
+  mode: "production",
   module: {
     rules: [
       {
@@ -23,6 +24,9 @@ module.exports = {
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",
+          options: {
+            presets: ["@babel/preset-env", "@babel/preset-react"],
+          },
         },
       },
       {
@@ -45,7 +49,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./public/index.html",
+      template: path.join(__dirname, "public", "index.html"),
       filename: "./[name].[contenthash].html",
     }),
     new MiniCssExtractPlugin({
