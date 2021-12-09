@@ -1,10 +1,11 @@
 import React from "react";
 import "./cardProject.css";
-import { Description } from "./Description";
+import "./description.css";
+import { ButtonProject } from "./Buttons/Button";
 
-const CardProject = () => {
+const CardProject = ({ title, description, img, likes, code, demo }) => {
   const styledImageBg = {
-    backgroundImage: `url()`,
+    backgroundImage: `url(${img})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "contain",
     backgroundPositionY: "center",
@@ -14,7 +15,25 @@ const CardProject = () => {
     <div className="project__container">
       <li>
         <div className="project__item" style={styledImageBg}>
-          <Description />
+          <div className="description__wrapper">
+            <div className="description__text">
+              <h2 className="description__text--title">{title}</h2>
+              <p className="description__text-p">{description}</p>
+            </div>
+            <div className="description__technologies--wrapper">
+              <ul className="description__technologies--list">
+                <li>React</li>
+                <li>CSS</li>
+                <li>HTML</li>
+              </ul>
+            </div>
+            <div className="description__feedback">
+              <ButtonProject type="like" value={likes} />
+              <ButtonProject type="share" title="Share" />
+              <ButtonProject type="github" title="Code" link={code} />
+              <ButtonProject type="demo" title="Demo" link={demo} />
+            </div>
+          </div>
         </div>
       </li>
     </div>

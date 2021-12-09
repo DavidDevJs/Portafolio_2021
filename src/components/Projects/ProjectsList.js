@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./projects.css";
 import "./cardProject.css";
-import { Description } from "./Description";
+import { CardProject } from "./CardProject";
 import { collection, getDocs } from "@firebase/firestore";
 import db from "../../firebase/firebaseConfig";
 
@@ -24,9 +24,14 @@ const ProjectsList = () => {
   }, []);
 
   console.log(projects);
+
   return (
     <section className="projects__list">
-      <ul className="projects__list--ul"></ul>
+      <ul className="projects__list--ul">
+        {projects.map((project) => (
+          <CardProject {...project} key={project.id} />
+        ))}
+      </ul>
     </section>
   );
 };
