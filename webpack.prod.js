@@ -1,60 +1,65 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const CopyPlugin = require("copy-webpack-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
-const Dotenv = require("dotenv-webpack");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "[name].[contenthash].js",
-    assetModuleFilename: "assets/images/[hash][ext][query]",
+    publicPath: "/",
   },
   resolve: {
-    extensions: [".js"],
+    extensions: [".js", ".jsx"],
   },
   module: {
     rules: [
       {
-        test: /\.m?js$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",
         },
       },
       {
-        test: /\.css|.styl$/i,
-        use: [MiniCssExtractPlugin.loader, "css-loader", "stylus-loader"],
+        test: /\.html$/,
+        use: [{ loader: "html-loader" }],
       },
       {
-        test: /\.png/,
-        type: "asset/images",
+        test: /\.css$/i,
+        use: ["css-loader"],
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: "file-loader",
+          },
+        ],
       },
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
-      inject: true,
       template: "./public/index.html",
       filename: "./[name].[contenthash].html",
     }),
     new MiniCssExtractPlugin({
-      filename: "assets/[name].[contenthash].css",
+      filename: "[name].[contenthash].css",
     }),
+    new CleanWebpackPlugin(),
     new CopyPlugin({
       patterns: [
         {
           from: path.resolve(__dirname, "src", "assets"),
-          to: "assets/images",
+          to: "assets",
         },
       ],
     }),
-    new Dotenv(),
-    new CleanWebpackPlugin(),
   ],
   optimization: {
     minimize: true,
