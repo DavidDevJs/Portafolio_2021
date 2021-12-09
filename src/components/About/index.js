@@ -27,10 +27,7 @@ const About = () => {
               href="https://platzi.com/p/davidgonzalez0519/curso/1642-javascript-profesional/diploma/detalle/"
               target="_blank"
             >
-              <img
-                src={iconsSkills.javascriptIcon}
-                alt="Javascript Profesional"
-              />
+              <img src={iconsSkills.javascript} alt="Javascript Profesional" />
               <p>Javascript</p>
             </a>
           </li>
@@ -40,7 +37,7 @@ const About = () => {
               href="https://platzi.com/p/davidgonzalez0519/curso/2008-html-css/diploma/detalle/"
               target="_blank"
             >
-              <img src={iconsSkills.htmlIcon} alt="Curso HTML" />
+              <img src={iconsSkills.html} alt="Curso HTML" />
               <p>HTML</p>
             </a>
           </li>
@@ -50,7 +47,7 @@ const About = () => {
               href="https://platzi.com/p/davidgonzalez0519/curso/2229-flexbox-css-grid/diploma/detalle/"
               target="_blank"
             >
-              <img src={iconsSkills.cssIcon} alt="CSS Flexbox y Grid" />
+              <img src={iconsSkills.css} alt="CSS Flexbox y Grid" />
               <p>CSS 3</p>
             </a>
           </li>
@@ -60,7 +57,7 @@ const About = () => {
               href="https://platzi.com/p/davidgonzalez0519/curso/1557-git-github/diploma/detalle/"
               target="_blank"
             >
-              <img src={iconsSkills.gitIcon} alt="Git y Github" />
+              <img src={iconsSkills.git} alt="Git y Github" />
               <p>Git</p>
             </a>
           </li>
@@ -70,18 +67,18 @@ const About = () => {
               href="https://platzi.com/p/davidgonzalez0519/curso/2118-react-hooks/diploma/detalle/"
               target="_blank"
             >
-              <img src={iconsSkills.reactIcon} alt="React y React Hooks" />
+              <img src={iconsSkills.react} alt="React y React Hooks" />
               <p>React JS</p>
             </a>
           </li>
           <li>
             {" "}
-            <img src={iconsSkills.styledIcon} alt="Styles in JS" />
+            <img src={iconsSkills.styled} alt="Styles in JS" />
             <p>Styled Components</p>
           </li>
           <li>
             {" "}
-            <img src={iconsSkills.tailwindIcon} alt="Tailwind CSS" />
+            <img src={iconsSkills.tailwind} alt="Tailwind CSS" />
             <p>Tailwind CSS</p>
           </li>
           <li>
@@ -90,7 +87,7 @@ const About = () => {
               href="https://platzi.com/p/davidgonzalez0519/curso/2242-webpack/diploma/detalle/"
               target="_blank"
             >
-              <img src={iconsSkills.webpackIcon} alt="Webpack" />
+              <img src={iconsSkills.webpack} alt="Webpack" />
               <p>Webpack</p>
             </a>
           </li>
@@ -100,16 +97,13 @@ const About = () => {
               href="https://platzi.com/p/davidgonzalez0519/curso/1480-postgresql/diploma/detalle/"
               target="_blank"
             >
-              <img
-                src={iconsSkills.postgresql}
-                alt="Base de datos postgresql"
-              />
+              <img src={iconsSkills.postgres} alt="Base de datos postgresql" />
               <p>Postgres</p>
             </a>
           </li>
           <li>
             {" "}
-            <img src={iconsSkills.firebaseIcon} alt="Firebase" />
+            <img src={iconsSkills.firebase} alt="Firebase" />
             <p>Firebase</p>
           </li>
         </ul>

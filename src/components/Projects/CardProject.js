@@ -2,8 +2,17 @@ import React from "react";
 import "./cardProject.css";
 import "./description.css";
 import { ButtonProject } from "./Buttons/Button";
+import { ListTools } from "./ListTools";
 
-const CardProject = ({ title, description, img, likes, code, demo }) => {
+const CardProject = ({
+  title,
+  description,
+  img,
+  likes,
+  code,
+  demo,
+  technologies,
+}) => {
   const styledImageBg = {
     backgroundImage: `url(${img})`,
     backgroundRepeat: "no-repeat",
@@ -21,11 +30,7 @@ const CardProject = ({ title, description, img, likes, code, demo }) => {
               <p className="description__text-p">{description}</p>
             </div>
             <div className="description__technologies--wrapper">
-              <ul className="description__technologies--list">
-                <li>React</li>
-                <li>CSS</li>
-                <li>HTML</li>
-              </ul>
+              <ListTools tools={technologies} />
             </div>
             <div className="description__feedback">
               <ButtonProject type="like" value={likes} />

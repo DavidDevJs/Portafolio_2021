@@ -1,0 +1,9 @@
+.tools {
+  display: flex;
+  color: var(--txt);
+  width: 100%;
+}
+
+.tools img {
+  width: 50px;
+}

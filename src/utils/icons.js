@@ -10,16 +10,16 @@ import postgresql from "../assets/technologies/postgresql.png";
 import firebaseIcon from "../assets/technologies/firebase.png";
 
 const iconsSkills = {
-  javascriptIcon,
-  htmlIcon,
-  cssIcon,
-  gitIcon,
-  reactIcon,
-  styledIcon,
-  tailwindIcon,
-  webpackIcon,
-  postgresql,
-  firebaseIcon,
+  javascript: javascriptIcon,
+  html: htmlIcon,
+  css: cssIcon,
+  git: gitIcon,
+  react: reactIcon,
+  styled: styledIcon,
+  tailwind: tailwindIcon,
+  webpack: webpackIcon,
+  postgres: postgresql,
+  firebase: firebaseIcon,
 };
 
 export { iconsSkills };
