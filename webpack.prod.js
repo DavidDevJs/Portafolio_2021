@@ -10,7 +10,7 @@ module.exports = {
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "[name].[contenthash].js",
+    filename: "main.js",
     publicPath: "/",
   },
   resolve: {
@@ -53,7 +53,7 @@ module.exports = {
       filename: "index.html",
     }),
     new MiniCssExtractPlugin({
-      filename: "[name].[contenthash].css",
+      filename: "styles.css",
     }),
     new CleanWebpackPlugin(),
     new CopyPlugin({
