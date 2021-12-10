@@ -8,16 +8,13 @@ const CopyPlugin = require("copy-webpack-plugin");
 const Dotenv = require("dotenv-webpack");
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: path.join(__dirname, "src", "index.js"),
+  mode: "production",
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "main.js",
     publicPath: "/",
   },
-  resolve: {
-    extensions: [".js", ".jsx"],
-  },
-  mode: "production",
   module: {
     rules: [
       {
@@ -53,9 +50,6 @@ module.exports = {
       template: path.join(__dirname, "public", "index.html"),
       filename: "index.html",
     }),
-    new MiniCssExtractPlugin({
-      filename: "styles.css",
-    }),
     new CleanWebpackPlugin(),
     new CopyPlugin({
       patterns: [
@@ -69,6 +63,6 @@ module.exports = {
   ],
   optimization: {
     minimize: true,
-    minimizer: [new CssMinimizerPlugin(), new TerserPlugin()],
+    minimizer: [new TerserPlugin()],
   },
 };
