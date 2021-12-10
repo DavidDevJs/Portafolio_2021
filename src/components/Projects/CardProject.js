@@ -3,6 +3,7 @@ import "./cardProject.css";
 import "./description.css";
 import { ButtonLink } from "./Buttons/ButtonLink";
 import { Buttonlike } from "./Buttons/ButtonLike";
+import { ButtonShare } from "./Buttons/ButtonShare";
 import { ListTools } from "./ListTools";
 
 const CardProject = ({
@@ -35,7 +36,7 @@ const CardProject = ({
             </div>
             <div className="description__feedback">
               <Buttonlike type="like" value={likes} />
-              <ButtonLink type="share" title="Share" />
+              <ButtonShare />
               <ButtonLink type="github" title="Code" link={code} />
               <ButtonLink type="demo" title="Demo" link={demo} />
             </div>
