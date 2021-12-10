@@ -120,9 +120,11 @@ const About = () => {
           </li>
         </ul>
         <p className="about__p">Always ready to never stop learning.</p>
-        <button className="about__download" onClick={handlerDownload}>
-          Download CV
-        </button>
+        {/*
+          <button className="about__download" onClick={handlerDownload}>
+            Download CV
+          </button>
+        */}
       </div>
     </section>
   );
