@@ -19,14 +19,14 @@ const About = () => {
       <div className="about__content">
         <h2 className="about__title">About Me</h2>
         <p className="about__p">
-          Hola, soy David González{" "}
-          <strong className="item-strong">desarrollador front-end</strong>, me
-          encanta crear soluciones de software en la web para mejorar la calidad
-          de vida en la sociedad, a través de código mantenible, escalable y
-          optimizado con las mejores prácticas, pensando siempre en la
-          "Experiencia de Usuario".
+          Hi, I'm David González{" "}
+          <strong className="item-strong">front-end Developer</strong>, I love
+          to create software solutions on the web to improve the quality of life
+          in society quality of life in society, through maintainable, scalable
+          and optimized code optimized with best practices, always thinking
+          about the "User Experience".
         </p>
-        <h4>Trabajo con tecnologias frontend:</h4>
+        <h4>I work with frontend technologies:</h4>
         <ul className="about__list-skills">
           <li>
             {" "}
@@ -113,10 +113,13 @@ const About = () => {
             <img src={iconsSkills.firebase} alt="Firebase" />
             <p>Firebase</p>
           </li>
+          <li>
+            {" "}
+            <img src={iconsSkills.figma} alt="figma design" />
+            <p>figma</p>
+          </li>
         </ul>
-        <p className="about__p">
-          Siempre dispuesto para nunca parar de aprender.
-        </p>
+        <p className="about__p">Always ready to never stop learning.</p>
         <button className="about__download" onClick={handlerDownload}>
           Download CV
         </button>

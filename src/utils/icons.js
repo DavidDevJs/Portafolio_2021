@@ -9,6 +9,7 @@ import webpackIcon from "../assets/webpack.png";
 import postgresql from "../assets/postgresql.png";
 import firebaseIcon from "../assets/firebase.png";
 import bootstrap from "../assets/bootstrap.png";
+import figma from "../assets/figma.png";
 
 const iconsSkills = {
   javascript: javascriptIcon,
@@ -22,6 +23,7 @@ const iconsSkills = {
   postgres: postgresql,
   firebase: firebaseIcon,
   bootstrap: bootstrap,
+  figma: figma,
 };
 
 export { iconsSkills };
