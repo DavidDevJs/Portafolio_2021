@@ -3,7 +3,6 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 70px);
   gap: 5px;
-  max-width: 567.7px;
   padding: 20px;
   margin-block-end: 36px;
   background: linear-gradient(
