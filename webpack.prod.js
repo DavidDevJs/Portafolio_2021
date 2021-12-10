@@ -59,7 +59,7 @@ module.exports = {
         },
       ],
     }),
-    new Dotenv({ path: "./.env.local" }),
+    new Dotenv(),
   ],
   optimization: {
     minimize: true,
