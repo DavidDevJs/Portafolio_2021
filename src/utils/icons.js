@@ -8,6 +8,7 @@ import tailwindIcon from "../assets/tailwind.png";
 import webpackIcon from "../assets/webpack.png";
 import postgresql from "../assets/postgresql.png";
 import firebaseIcon from "../assets/firebase.png";
+import bootstrap from "../assets/bootstrap.png";
 
 const iconsSkills = {
   javascript: javascriptIcon,
@@ -20,6 +21,7 @@ const iconsSkills = {
   webpack: webpackIcon,
   postgres: postgresql,
   firebase: firebaseIcon,
+  bootstrap: bootstrap,
 };
 
 export { iconsSkills };

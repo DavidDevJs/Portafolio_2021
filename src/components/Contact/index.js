@@ -1,4 +1,7 @@
 import React from "react";
+
+import { BsGithub, BsLinkedin } from "react-icons/bs";
+
 import "./Contact.css";
 
 const Contact = () => {
@@ -13,7 +16,6 @@ const Contact = () => {
             onSubmit={handleSubmit}
             action="mailto:davidgonzalez0519@gmail.com"
             method="POST"
-            enctype="multipart/form-data"
           >
             <div className="contact-form__item">
               <label>FullName</label>
@@ -31,6 +33,16 @@ const Contact = () => {
               <button>Send</button>
             </div>
           </form>
+          <div className="social-networks">
+            <a href="https://www.linkedin.com/in/manuel-david-arias-gonz%C3%A1lez-40b9bb1b8/">
+              <BsLinkedin className="socialIcon" />
+              Linkedin
+            </a>
+            <a href="https://github.com/Davidgonz-maker">
+              <BsGithub className="socialIcon" />
+              Github
+            </a>
+          </div>
         </div>
       </div>
     </section>

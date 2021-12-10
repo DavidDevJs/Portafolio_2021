@@ -23,6 +23,8 @@ const ProjectsList = () => {
     getData();
   }, []);
 
+  console.log(projects);
+
   return (
     <section className="projects__list">
       <ul className="projects__list--ul">
