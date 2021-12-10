@@ -93,6 +93,20 @@
   color: var(--txt);
 }
 
+.about__download {
+  align-self: center;
+  padding: 5px;
+  width: 100px;
+  border-radius: 14px;
+  color: var(--bg);
+  background-color: var(--action);
+}
+
+.about__download:hover {
+  box-shadow: var(--shadows);
+  color: var(--txt);
+}
+
 @media screen and (min-width: 710px) {
   .about {
     display: grid;

@@ -48,4 +48,12 @@
   .description__wrapper {
     margin-block-end: 1px;
   }
+
+  .description__text--title {
+    font-size: 0.8rem;
+  }
+
+  .description__text-p {
+    font-size: 1rem;
+  }
 }

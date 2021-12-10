@@ -2,8 +2,15 @@ import React from "react";
 import "./About.css";
 import imgProfile from "../../assets/imgProfile.jpg";
 import { iconsSkills } from "../../utils/icons";
+import { getStorage, ref } from "firebase/storage";
 
 const About = () => {
+  const handlerDownload = async (e) => {
+    const storage = getStorage();
+    const pathReference = ref(storage, "manuel-david-arias-cv.pdf");
+    const gsReference = ref(storage, "gd://bucket/manuel-david-arias-cv.pdf");
+  };
+
   return (
     <section className="about" id="about">
       <div className="about__imgProfile">
@@ -110,6 +117,9 @@ const About = () => {
         <p className="about__p">
           Siempre dispuesto para nunca parar de aprender.
         </p>
+        <button className="about__download" onClick={handlerDownload}>
+          Download CV
+        </button>
       </div>
     </section>
   );
