@@ -1,7 +1,8 @@
 import React from "react";
 import "./cardProject.css";
 import "./description.css";
-import { ButtonProject } from "./Buttons/Button";
+import { ButtonLink } from "./Buttons/ButtonLink";
+import { Buttonlike } from "./Buttons/ButtonLike";
 import { ListTools } from "./ListTools";
 
 const CardProject = ({
@@ -33,10 +34,10 @@ const CardProject = ({
               <ListTools tools={technologies} />
             </div>
             <div className="description__feedback">
-              <ButtonProject type="like" value={likes} />
-              <ButtonProject type="share" title="Share" />
-              <ButtonProject type="github" title="Code" link={code} />
-              <ButtonProject type="demo" title="Demo" link={demo} />
+              <Buttonlike type="like" value={likes} />
+              <ButtonLink type="share" title="Share" />
+              <ButtonLink type="github" title="Code" link={code} />
+              <ButtonLink type="demo" title="Demo" link={demo} />
             </div>
           </div>
         </div>
