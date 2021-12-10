@@ -2,8 +2,14 @@
   display: flex;
   color: var(--txt);
   width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.tools__item {
+  margin-inline: 3vw;
 }
 
 .tools img {
-  width: 50px;
+  width: 40px;
 }

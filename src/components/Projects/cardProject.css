@@ -3,14 +3,14 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
-  height: 100vh;
+  height: 90vh;
 }
 
 .project__item {
   display: flex;
   align-items: flex-end;
   width: 100vw;
-  max-width: 446px;
+  max-width: 90vh;
   background-color: var(--bg);
 }
 
@@ -21,6 +21,7 @@
 
   .project__item {
     margin-block: 5px;
+    max-width: 500px;
   }
 
   .project__item--img {

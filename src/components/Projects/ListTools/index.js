@@ -6,7 +6,7 @@ const ListTools = ({ tools }) => {
   return (
     <ul className="tools">
       {tools.map((item, i) => (
-        <li key={i}>
+        <li key={i} className="tools__item">
           <img src={iconsSkills[item]} alt={item} />
         </li>
       ))}

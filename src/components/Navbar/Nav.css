@@ -10,9 +10,11 @@
   z-index: 1;
 }
 
-.nav__sections ul,
-li {
+.nav__sections ul {
   display: flex;
+}
+
+.nav__sections .nav__item {
   margin-inline: 30px;
 }
 
