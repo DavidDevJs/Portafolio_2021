@@ -9,7 +9,12 @@ const Contact = () => {
       <h1 className="contact__title">Contact</h1>
       <div className="contact-wrapper">
         <div className="contact-form">
-          <form onSubmit={handleSubmit}>
+          <form
+            onSubmit={handleSubmit}
+            action="mailto:davidgonzalez0519@gmail.com"
+            method="POST"
+            enctype="multipart/form-data"
+          >
             <div className="contact-form__item">
               <label>FullName</label>
               <input type="text" name="fullname" required />
