@@ -22,8 +22,7 @@ const About = () => {
           Hi, I'm David González{" "}
           <strong className="item-strong">front-end Developer</strong>, I love
           to create software solutions on the web to improve the quality of life
-          in society quality of life in society, through maintainable, scalable
-          and optimized code optimized with best practices, always thinking
+          in society, through maintainable, scalable and optimized code optimized with best practices, always thinking
           about the "User Experience".
         </p>
         <h4>I work with frontend technologies:</h4>
