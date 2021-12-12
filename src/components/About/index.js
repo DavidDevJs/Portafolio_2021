@@ -21,10 +21,9 @@ const About = () => {
         <p className="about__p">
           Hi, I'm David González{" "}
           <strong className="item-strong">front-end Developer</strong>, I love
-          to create software solutions on the web to improve the quality of life
-          in society quality of life in society, through maintainable, scalable
-          and optimized code optimized with best practices, always thinking
-          about the "User Experience".
+          to create software solutions for the web in order to improve the
+          society's quality of life, using maintainable, scalable, and optimized
+          code through the user experience best practices.
         </p>
         <h4>I work with frontend technologies:</h4>
         <ul className="about__list-skills">
