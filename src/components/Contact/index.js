@@ -38,7 +38,7 @@ const Contact = () => {
               <BsLinkedin className="socialIcon" />
               Linkedin
             </a>
-            <a href="https://github.com/Davidgonz-maker">
+            <a href="https://github.com/DavidDevJs">
               <BsGithub className="socialIcon" />
               Github
             </a>
